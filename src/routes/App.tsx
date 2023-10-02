@@ -6,7 +6,7 @@ import SignIn from '../components/auth/SignIn';
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' index element={<SignIn></SignIn>}></Route>
           <Route path='/signup' element={<SignUp></SignUp>}></Route>
@@ -14,7 +14,7 @@ function App() {
             path='/reset'
             element={<RestorePassword></RestorePassword>}></Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
