@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/aiqyyn1/simple-react-auth/static/css/main.32997ecd.css",
-    "main.js": "/aiqyyn1/simple-react-auth/static/js/main.c47d1808.js",
+    "main.js": "/aiqyyn1/simple-react-auth/static/js/main.e1ca6a90.js",
     "index.html": "/aiqyyn1/simple-react-auth/index.html",
     "main.32997ecd.css.map": "/aiqyyn1/simple-react-auth/static/css/main.32997ecd.css.map",
-    "main.c47d1808.js.map": "/aiqyyn1/simple-react-auth/static/js/main.c47d1808.js.map"
+    "main.e1ca6a90.js.map": "/aiqyyn1/simple-react-auth/static/js/main.e1ca6a90.js.map"
   },
   "entrypoints": [
     "static/css/main.32997ecd.css",
-    "static/js/main.c47d1808.js"
+    "static/js/main.e1ca6a90.js"
   ]
 }
