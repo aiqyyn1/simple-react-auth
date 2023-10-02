@@ -6,9 +6,9 @@ import SignIn from '../components/auth/SignIn';
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter basename='/simple-react-auth'>
         <Routes>
-          <Route path='/' index element={'Hello world'}></Route>
+          <Route path='/' index element={<SignIn></SignIn>}></Route>
           <Route path='/signup' element={<SignUp></SignUp>}></Route>
           <Route
             path='/reset'
