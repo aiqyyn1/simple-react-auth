@@ -8,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' index element={<SignIn></SignIn>}></Route>
+          <Route path='/signin' index element={<SignIn></SignIn>}></Route>
           <Route path='/signup' element={<SignUp></SignUp>}></Route>
           <Route
             path='/reset'
